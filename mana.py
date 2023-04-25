@@ -5,7 +5,7 @@ import wikipedia
 from aiogram import Bot, Dispatcher, executor, types
 import openai
 
-TOKEN = ''
+TOKEN = 'Your bot token here from @botfather'
 openai.api_key = "Your openai api key"
 
 bot = Bot(token=TOKEN)
