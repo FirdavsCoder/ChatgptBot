@@ -82,8 +82,6 @@ async def prompt(message: types.Message):
         await bot.delete_message(chat_id=sent_message.chat.id, message_id=sent_message.message_id)
         await message.answer(response['choices'][0]['message']['content'], parse_mode="Markdown")
 
-
-
 async def main():
     await dp.start_polling(bot)
 
