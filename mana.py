@@ -65,6 +65,7 @@ async def start(message: types.Message):
     await bot.delete_message(chat_id=sent_message.chat.id, message_id=sent_message.message_id)
     await message.answer(response['choices'][0]['message']['content'], parse_mode="Markdown")
 
+# Chatgpt uchun komands
 @dp.message_handler(commands=['gpt'])
 async def prompt(message: types.Message):
     text_matn = message.text.replace("/gpt ", "")
