@@ -1,4 +1,5 @@
 # @kingsofpy - please subscripe this channel
+# Author - Firdavs Yorkulov
 import asyncio
 import wikipedia
 from aiogram import Bot, Dispatcher, executor, types
