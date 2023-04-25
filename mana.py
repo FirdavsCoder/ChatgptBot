@@ -6,7 +6,7 @@ from aiogram import Bot, Dispatcher, executor, types
 import openai
 
 TOKEN = ''
-openai.api_key = "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"
+openai.api_key = "Your openai api key"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot=bot)
