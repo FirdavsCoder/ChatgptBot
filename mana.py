@@ -1,3 +1,4 @@
+# @kingsofpy - please subscripe this channel
 import asyncio
 import wikipedia
 from aiogram import Bot, Dispatcher, executor, types
